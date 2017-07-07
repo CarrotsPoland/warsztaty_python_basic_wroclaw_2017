@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import yaml
+from notebook.auth import passwd
 
 
-passwords = [
-    "sha1:5787b99282f3:dd43b9a19dd95526d8685135da37a346c954d105",
-    "sha1:ec875c41cff8:ece7d94aee0d4baa7d5c0759b5292d0325757c15",
-    "sha1:9b779e22ce48:57eadfe7c462098f1e82633a5d9f0067294a1df2",
-]
+passwords = []
+for i in range(1, 25):
+    passwords.append(passwd("karotki{}".format(i)))
 
 
 def render():
