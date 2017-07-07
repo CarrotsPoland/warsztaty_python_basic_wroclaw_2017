@@ -3,10 +3,10 @@ services:
     build:
       context: .
       dockerfile: ./notebook.dockerfile
-    command: /srv/run.sh
+    command: /home/carrot/run.sh
     container_name: carrot1
     environment:
-      PASSWORD: sha1:5787b99282f3:dd43b9a19dd95526d8685135da37a346c954d105
+      PASSWORD: sha1:117839bc949a:e8a7f6f186e007be5445847704114302992b01a1
     image: carrot
     ports:
     - 8001:8888
@@ -14,14 +14,164 @@ services:
     user: carrot
     volumes:
     - carrot_notebook_vol_1:/home/carrot/notebooks
+  notebook-10:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot10
+    environment:
+      PASSWORD: sha1:b1a13b7937a0:82463538e39a7a14a0b97fd44e049b265862529b
+    image: carrot
+    ports:
+    - 8010:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_10:/home/carrot/notebooks
+  notebook-11:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot11
+    environment:
+      PASSWORD: sha1:76532e80f312:1869d48f9b6af4e579498a41c6ba7705576f3b24
+    image: carrot
+    ports:
+    - 8011:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_11:/home/carrot/notebooks
+  notebook-12:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot12
+    environment:
+      PASSWORD: sha1:1af865aafdb3:72a544524bb4e232a905f3092a1ab455716df051
+    image: carrot
+    ports:
+    - 8012:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_12:/home/carrot/notebooks
+  notebook-13:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot13
+    environment:
+      PASSWORD: sha1:0a9df9e9b31a:f58b748c7a45d9437a74de9fcd623986a423a010
+    image: carrot
+    ports:
+    - 8013:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_13:/home/carrot/notebooks
+  notebook-14:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot14
+    environment:
+      PASSWORD: sha1:0c54e81ff611:4327de562ef9e4d4de07fcc1937ba55ef1029915
+    image: carrot
+    ports:
+    - 8014:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_14:/home/carrot/notebooks
+  notebook-15:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot15
+    environment:
+      PASSWORD: sha1:08f8b256e777:e84a06f0864e2c7cd8a88a9aa1ca15df9e9b2eed
+    image: carrot
+    ports:
+    - 8015:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_15:/home/carrot/notebooks
+  notebook-16:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot16
+    environment:
+      PASSWORD: sha1:c4f5809df2cb:4c5e54f4fa4a26aa5f5839e7ef7390c85d8a8bba
+    image: carrot
+    ports:
+    - 8016:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_16:/home/carrot/notebooks
+  notebook-17:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot17
+    environment:
+      PASSWORD: sha1:b45377fa760b:4e654fc56e618ef223b810d3c77fe69d996db0ff
+    image: carrot
+    ports:
+    - 8017:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_17:/home/carrot/notebooks
+  notebook-18:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot18
+    environment:
+      PASSWORD: sha1:cbf135d786fc:0f80cca0ac4d15526cd70ee473b7b7c64f8496c4
+    image: carrot
+    ports:
+    - 8018:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_18:/home/carrot/notebooks
+  notebook-19:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot19
+    environment:
+      PASSWORD: sha1:df5ed6e88cd5:e39b343f7c186c71c95a17a9f0814c92f6c729de
+    image: carrot
+    ports:
+    - 8019:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_19:/home/carrot/notebooks
   notebook-2:
     build:
       context: .
       dockerfile: ./notebook.dockerfile
-    command: /srv/run.sh
+    command: /home/carrot/run.sh
     container_name: carrot2
     environment:
-      PASSWORD: sha1:ec875c41cff8:ece7d94aee0d4baa7d5c0759b5292d0325757c15
+      PASSWORD: sha1:2f2fb7fbb8fb:5eb44394ea498a49f744a9becd8fb76f60b4d89d
     image: carrot
     ports:
     - 8002:8888
@@ -29,14 +179,89 @@ services:
     user: carrot
     volumes:
     - carrot_notebook_vol_2:/home/carrot/notebooks
+  notebook-20:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot20
+    environment:
+      PASSWORD: sha1:fe8672b8decf:71de63728b81e02631d1dd32ee6c3eda68895f57
+    image: carrot
+    ports:
+    - 8020:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_20:/home/carrot/notebooks
+  notebook-21:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot21
+    environment:
+      PASSWORD: sha1:a2790d2bc456:128e4ef600ac2ac2e0ccffaf31087bcbb9e8f80d
+    image: carrot
+    ports:
+    - 8021:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_21:/home/carrot/notebooks
+  notebook-22:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot22
+    environment:
+      PASSWORD: sha1:a409e41a899a:01399922b28fdbbe81a7b8c2aab3f192cc302bcc
+    image: carrot
+    ports:
+    - 8022:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_22:/home/carrot/notebooks
+  notebook-23:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot23
+    environment:
+      PASSWORD: sha1:508dff0077c5:a25b4274897dc413f700493eaf87540034054a65
+    image: carrot
+    ports:
+    - 8023:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_23:/home/carrot/notebooks
+  notebook-24:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot24
+    environment:
+      PASSWORD: sha1:cd7b14db143b:f82099ce2a9094aa0b89b253f4248599c6f67488
+    image: carrot
+    ports:
+    - 8024:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_24:/home/carrot/notebooks
   notebook-3:
     build:
       context: .
       dockerfile: ./notebook.dockerfile
-    command: /srv/run.sh
+    command: /home/carrot/run.sh
     container_name: carrot3
     environment:
-      PASSWORD: sha1:9b779e22ce48:57eadfe7c462098f1e82633a5d9f0067294a1df2
+      PASSWORD: sha1:3c927165a623:41ec6d577acc768c44dc279fdff7f7e2fa45fc36
     image: carrot
     ports:
     - 8003:8888
@@ -44,8 +269,119 @@ services:
     user: carrot
     volumes:
     - carrot_notebook_vol_3:/home/carrot/notebooks
+  notebook-4:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot4
+    environment:
+      PASSWORD: sha1:710b9cc03ff0:6d37854fc275be4f5e338e2ac4248690dc320814
+    image: carrot
+    ports:
+    - 8004:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_4:/home/carrot/notebooks
+  notebook-5:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot5
+    environment:
+      PASSWORD: sha1:654bf2b25b47:ef99e10fb8f9164c8a84f6453d9e47c584bb6011
+    image: carrot
+    ports:
+    - 8005:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_5:/home/carrot/notebooks
+  notebook-6:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot6
+    environment:
+      PASSWORD: sha1:9e7fc3817422:feb4e071000b0e23fcf100a36afb26335f9f0ba6
+    image: carrot
+    ports:
+    - 8006:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_6:/home/carrot/notebooks
+  notebook-7:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot7
+    environment:
+      PASSWORD: sha1:fb767c43c4fb:3236a35bf86774b408816d97c8179816d3e2ca6f
+    image: carrot
+    ports:
+    - 8007:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_7:/home/carrot/notebooks
+  notebook-8:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot8
+    environment:
+      PASSWORD: sha1:d11f47f89606:da178876387951c65d38c4e6df41849303a02547
+    image: carrot
+    ports:
+    - 8008:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_8:/home/carrot/notebooks
+  notebook-9:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /home/carrot/run.sh
+    container_name: carrot9
+    environment:
+      PASSWORD: sha1:ea71d8678478:69f25d5543dad50c28fb507f7a85ad5c3cc5c276
+    image: carrot
+    ports:
+    - 8009:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_9:/home/carrot/notebooks
 version: '2'
 volumes:
   carrot_notebook_vol_1: {}
+  carrot_notebook_vol_10: {}
+  carrot_notebook_vol_11: {}
+  carrot_notebook_vol_12: {}
+  carrot_notebook_vol_13: {}
+  carrot_notebook_vol_14: {}
+  carrot_notebook_vol_15: {}
+  carrot_notebook_vol_16: {}
+  carrot_notebook_vol_17: {}
+  carrot_notebook_vol_18: {}
+  carrot_notebook_vol_19: {}
   carrot_notebook_vol_2: {}
+  carrot_notebook_vol_20: {}
+  carrot_notebook_vol_21: {}
+  carrot_notebook_vol_22: {}
+  carrot_notebook_vol_23: {}
+  carrot_notebook_vol_24: {}
   carrot_notebook_vol_3: {}
+  carrot_notebook_vol_4: {}
+  carrot_notebook_vol_5: {}
+  carrot_notebook_vol_6: {}
+  carrot_notebook_vol_7: {}
+  carrot_notebook_vol_8: {}
+  carrot_notebook_vol_9: {}

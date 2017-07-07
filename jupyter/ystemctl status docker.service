@@ -1,0 +1,1598 @@
+-- Logs begin at pią 2017-07-07 11:22:07 CEST, end at pią 2017-07-07 13:09:28 CEST. --
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Successfully called chroot.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Successfully dropped privileges.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Successfully limited resources.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Running.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Canary thread running.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Watchdog thread running.
+lip 07 11:22:12 cosphere-oko systemd[1]: Started RealtimeKit Scheduling Policy Service.
+-- Subject: Unit rtkit-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rtkit-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Successfully made thread 1411 of process 1411 (n/a) owned by '108' high priority at nice level -11.
+lip 07 11:22:12 cosphere-oko rtkit-daemon[1414]: Supervising 1 threads of 1 processes of 1 users.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Supervising 1 threads of 1 processes of 1 users.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Successfully made thread 1437 of process 1411 (n/a) owned by '108' RT at priority 5.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Supervising 2 threads of 1 processes of 1 users.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Supervising 2 threads of 1 processes of 1 users.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Successfully made thread 1438 of process 1411 (n/a) owned by '108' RT at priority 5.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Supervising 3 threads of 1 processes of 1 users.
+lip 07 11:22:13 cosphere-oko pulseaudio[1411]: [0;1;31m[pulseaudio] backend-ofono.c: Failed to register as a handsfree audio agent with ofono: org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files[0m
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Successfully made thread 1441 of process 1441 (n/a) owned by '108' high priority at nice level -11.
+lip 07 11:22:13 cosphere-oko rtkit-daemon[1414]: Supervising 4 threads of 2 processes of 1 users.
+lip 07 11:22:13 cosphere-oko pulseaudio[1441]: [0;1;31m[pulseaudio] pid.c: Daemon already running.[0m
+lip 07 11:22:13 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'[0m
+lip 07 11:22:13 cosphere-oko systemd[1]: Starting Daemon for power management...
+-- Subject: Unit upower.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has begun starting up.
+lip 07 11:22:13 cosphere-oko upowerd[1445]: (upowerd:1445): UPower-Linux-WARNING **: energy 43,220000 bigger than full 43,180000
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3083] device (wlp5s0): supplicant interface state: ready -> inactive
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3144] policy: auto-activating connection 'NETIASPOT-DAAD00'
+lip 07 11:22:13 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.UPower'[0m
+lip 07 11:22:13 cosphere-oko systemd[1]: Started Daemon for power management.
+-- Subject: Unit upower.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3225] policy: auto-activating connection 'NETIASPOT-DAAD00'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3228] device (wlp5s0): Activation: starting connection 'NETIASPOT-DAAD00' (417ab780-efda-4c59-8e45-0316f000add6)
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3237] device (wlp5s0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3244] manager: NetworkManager state is now CONNECTING
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3253] device (wlp5s0): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3257] device (wlp5s0): Activation: (wifi) access point 'NETIASPOT-DAAD00' has security, but secrets are required.
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3259] device (wlp5s0): state change: config -> need-auth (reason 'none') [50 60 0]
+lip 07 11:22:13 cosphere-oko whoopsie[835]: [11:22:13] offline
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3384] device (wlp5s0): state change: need-auth -> prepare (reason 'none') [60 40 0]
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3387] device (wlp5s0): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3389] device (wlp5s0): Activation: (wifi) connection 'NETIASPOT-DAAD00' has security, and secrets exist.  No new secrets needed.
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3389] Config: added 'ssid' value 'NETIASPOT-DAAD00'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3390] Config: added 'scan_ssid' value '1'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3390] Config: added 'key_mgmt' value 'WPA-PSK'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3390] Config: added 'auth_alg' value 'OPEN'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3390] Config: added 'psk' value '<omitted>'
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3411] sup-iface[0x193b1f0,wlp5s0]: config: set interface ap_scan to 1
+lip 07 11:22:13 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: SME: Trying to authenticate with 00:12:2a:da:ad:08 (SSID='NETIASPOT-DAAD00' freq=2432 MHz)[0m
+lip 07 11:22:13 cosphere-oko kernel: wlp5s0: authenticate with 00:12:2a:da:ad:08
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3675] device (wlp5s0): supplicant interface state: inactive -> authenticating
+lip 07 11:22:13 cosphere-oko kernel: wlp5s0: send auth to 00:12:2a:da:ad:08 (try 1/3)
+lip 07 11:22:13 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: Trying to associate with 00:12:2a:da:ad:08 (SSID='NETIASPOT-DAAD00' freq=2432 MHz)[0m
+lip 07 11:22:13 cosphere-oko kernel: wlp5s0: authenticated
+lip 07 11:22:13 cosphere-oko kernel: wlp5s0: associate with 00:12:2a:da:ad:08 (try 1/3)
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.3797] device (wlp5s0): supplicant interface state: authenticating -> associating
+lip 07 11:22:13 cosphere-oko kernel: wlp5s0: deauthenticated from 00:12:2a:da:ad:08 while associating (Reason: 6=CLASS2_FRAME_FROM_NONAUTH_STA)
+lip 07 11:22:13 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'[0m
+lip 07 11:22:13 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: CTRL-EVENT-DISCONNECTED bssid=00:12:2a:da:ad:08 reason=6[0m
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419333.4042] sup-iface[0x193b1f0,wlp5s0]: connection disconnected (reason 6)[0m
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.4094] device (wlp5s0): supplicant interface state: associating -> disconnected
+lip 07 11:22:13 cosphere-oko systemd[1]: Starting Manage, Install and Generate Color Profiles...
+-- Subject: Unit colord.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has begun starting up.
+lip 07 11:22:13 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.ColorManager'[0m
+lip 07 11:22:13 cosphere-oko systemd[1]: Started Manage, Install and Generate Color Profiles.
+-- Subject: Unit colord.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:13 cosphere-oko NetworkManager[836]: <info>  [1499419333.5093] device (wlp5s0): supplicant interface state: disconnected -> scanning
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.026138621+02:00" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.026305340+02:00" level=warning msg="Your kernel does not support swap memory limit"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.026337871+02:00" level=warning msg="Your kernel does not support cgroup rt period"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.026498846+02:00" level=warning msg="Your kernel does not support cgroup rt runtime"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.027161193+02:00" level=info msg="Loading containers: start."
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.226603723+02:00" level=warning msg="libcontainerd: client is out of sync, restore was called on a fully synced container (6ddac684467bd666fb50ac4aa7d1e46f543c1e77aac12f7a82a8e07f7aee68ac)."
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.234445889+02:00" level=warning msg="libcontainerd: failed to retrieve container 6ddac684467bd666fb50ac4aa7d1e46f543c1e77aac12f7a82a8e07f7aee68ac state: rpc error: code = 2 desc = containerd: container not found"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.234502737+02:00" level=warning msg="failed to cleanup ipc mounts:\nfailed to umount /var/lib/docker/containers/6ddac684467bd666fb50ac4aa7d1e46f543c1e77aac12f7a82a8e07f7aee68ac/shm: invalid argument"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.246506567+02:00" level=warning msg="libcontainerd: client is out of sync, restore was called on a fully synced container (020beb7f739c4e0e51cde6e11c53b67b3458e11d73e0f4168cfdca175d313b75)."
+lip 07 11:22:14 cosphere-oko kernel: [0;1;39maufs au_opts_verify:1597:dockerd[1221]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.247316737+02:00" level=warning msg="libcontainerd: failed to retrieve container 020beb7f739c4e0e51cde6e11c53b67b3458e11d73e0f4168cfdca175d313b75 state: rpc error: code = 2 desc = containerd: container not found"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.247434971+02:00" level=warning msg="failed to cleanup ipc mounts:\nfailed to umount /var/lib/docker/containers/020beb7f739c4e0e51cde6e11c53b67b3458e11d73e0f4168cfdca175d313b75/shm: invalid argument"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.314119150+02:00" level=warning msg="libcontainerd: client is out of sync, restore was called on a fully synced container (70f9908ec2ad014ccc10556bee8803330cd6e112ad9b83502be3e4774319690b)."
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.314313650+02:00" level=warning msg="libcontainerd: failed to retrieve container 70f9908ec2ad014ccc10556bee8803330cd6e112ad9b83502be3e4774319690b state: rpc error: code = 2 desc = containerd: container not found"
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.314378610+02:00" level=warning msg="failed to cleanup ipc mounts:\nfailed to umount /var/lib/docker/containers/70f9908ec2ad014ccc10556bee8803330cd6e112ad9b83502be3e4774319690b/shm: invalid argument"
+lip 07 11:22:14 cosphere-oko kernel: bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+lip 07 11:22:14 cosphere-oko kernel: [0;1;39mBridge firewalling registered[0m
+lip 07 11:22:14 cosphere-oko kernel: nf_conntrack version 0.5.0 (65536 buckets, 262144 max)
+lip 07 11:22:14 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:14.389153382+02:00" level=info msg="Firewalld running: false"
+lip 07 11:22:14 cosphere-oko kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+lip 07 11:22:14 cosphere-oko kernel: Initializing XFRM netlink socket
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4253] manager: (br-0119d1c5bd46): new Bridge device (/org/freedesktop/NetworkManager/Devices/3)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4275] devices added (path: /sys/devices/virtual/net/br-0119d1c5bd46, iface: br-0119d1c5bd46)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4275] device added (path: /sys/devices/virtual/net/br-0119d1c5bd46, iface: br-0119d1c5bd46): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-0119d1c5bd46.IPv4 with address 172.31.0.1.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-0119d1c5bd46.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4439] device (br-0119d1c5bd46): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.31.0.1 on br-0119d1c5bd46.IPv4.
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-0119d1c5bd46: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4451] keyfile: add connection in-memory (3a477056-a5ce-4389-b418-7fa65782845f,"br-0119d1c5bd46")
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4463] device (br-0119d1c5bd46): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4470] device (br-0119d1c5bd46): Activation: starting connection 'br-0119d1c5bd46' (3a477056-a5ce-4389-b418-7fa65782845f)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4490] device (br-0119d1c5bd46): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4501] manager: (br-428308098d7f): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4515] devices added (path: /sys/devices/virtual/net/br-428308098d7f, iface: br-428308098d7f)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4515] device added (path: /sys/devices/virtual/net/br-428308098d7f, iface: br-428308098d7f): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4531] device (br-0119d1c5bd46): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4542] device (br-0119d1c5bd46): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4571] device (br-0119d1c5bd46): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4595] device (br-0119d1c5bd46): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4597] device (br-0119d1c5bd46): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4642] device (br-0119d1c5bd46): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:2 'up' [br-0119d1c5bd46]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:2 'up' [br-0119d1c5bd46]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4750] device (br-428308098d7f): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4759] keyfile: add connection in-memory (0f6c2673-b8e8-4d28-a3e6-bd18febcee8b,"br-428308098d7f")
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-428308098d7f.IPv4 with address 172.28.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4772] device (br-428308098d7f): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4781] device (br-428308098d7f): Activation: starting connection 'br-428308098d7f' (0f6c2673-b8e8-4d28-a3e6-bd18febcee8b)
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-428308098d7f: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4790] device (br-428308098d7f): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4796] device (br-428308098d7f): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4800] device (br-428308098d7f): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-428308098d7f.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.28.0.1 on br-428308098d7f.IPv4.
+lip 07 11:22:14 cosphere-oko systemd-udevd[1653]: [0;1;39mCould not generate persistent MAC address for br-7acae04b1f00: No such file or directory[0m
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4853] device (br-428308098d7f): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4860] manager: (br-7acae04b1f00): new Bridge device (/org/freedesktop/NetworkManager/Devices/5)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4889] devices added (path: /sys/devices/virtual/net/br-7acae04b1f00, iface: br-7acae04b1f00)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4890] device added (path: /sys/devices/virtual/net/br-7acae04b1f00, iface: br-7acae04b1f00): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4918] device (br-428308098d7f): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4921] device (br-428308098d7f): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.4973] device (br-428308098d7f): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:3 'up' [br-428308098d7f]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-7acae04b1f00.IPv4 with address 172.21.0.1.
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-7acae04b1f00: link is not ready
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-7acae04b1f00.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5175] device (br-7acae04b1f00): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.21.0.1 on br-7acae04b1f00.IPv4.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5193] keyfile: add connection in-memory (8ba204b8-6699-48fe-9dec-842e12e2fc98,"br-7acae04b1f00")
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5207] device (br-7acae04b1f00): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5216] device (br-7acae04b1f00): Activation: starting connection 'br-7acae04b1f00' (8ba204b8-6699-48fe-9dec-842e12e2fc98)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5236] manager: (br-f62e4efcf75e): new Bridge device (/org/freedesktop/NetworkManager/Devices/6)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5240] devices added (path: /sys/devices/virtual/net/br-f62e4efcf75e, iface: br-f62e4efcf75e)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5241] device added (path: /sys/devices/virtual/net/br-f62e4efcf75e, iface: br-f62e4efcf75e): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5246] device (br-7acae04b1f00): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5256] device (br-7acae04b1f00): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5258] device (br-7acae04b1f00): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5334] device (br-7acae04b1f00): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5378] device (br-7acae04b1f00): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5381] device (br-7acae04b1f00): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:3 'up' [br-428308098d7f]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5432] device (br-7acae04b1f00): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:4 'up' [br-7acae04b1f00]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-f62e4efcf75e.IPv4 with address 172.18.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5618] device (br-f62e4efcf75e): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-f62e4efcf75e.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.18.0.1 on br-f62e4efcf75e.IPv4.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5639] keyfile: add connection in-memory (0ee214d2-7f77-4ac6-9e7a-bb95c4955829,"br-f62e4efcf75e")
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-f62e4efcf75e: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5655] device (br-f62e4efcf75e): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5662] device (br-f62e4efcf75e): Activation: starting connection 'br-f62e4efcf75e' (0ee214d2-7f77-4ac6-9e7a-bb95c4955829)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5670] device (br-f62e4efcf75e): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko systemd-udevd[1791]: [0;1;39mCould not generate persistent MAC address for br-f8b63b591b1d: No such file or directory[0m
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5677] manager: (br-f8b63b591b1d): new Bridge device (/org/freedesktop/NetworkManager/Devices/7)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5732] devices added (path: /sys/devices/virtual/net/br-f8b63b591b1d, iface: br-f8b63b591b1d)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5732] device added (path: /sys/devices/virtual/net/br-f8b63b591b1d, iface: br-f8b63b591b1d): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5770] device (br-f62e4efcf75e): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5784] device (br-f62e4efcf75e): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5805] device (br-f62e4efcf75e): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5814] device (br-f62e4efcf75e): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5816] device (br-f62e4efcf75e): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.5857] device (br-f62e4efcf75e): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-f8b63b591b1d: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6136] device (br-f8b63b591b1d): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:5 'up' [br-f62e4efcf75e]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6167] keyfile: add connection in-memory (6414da4a-56b2-4cf0-be14-4c493668e86f,"br-f8b63b591b1d")
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-f8b63b591b1d.IPv4 with address 172.29.0.1.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-f8b63b591b1d.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.29.0.1 on br-f8b63b591b1d.IPv4.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6183] device (br-f8b63b591b1d): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6195] device (br-f8b63b591b1d): Activation: starting connection 'br-f8b63b591b1d' (6414da4a-56b2-4cf0-be14-4c493668e86f)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6204] manager: (br-0155d4222d96): new Bridge device (/org/freedesktop/NetworkManager/Devices/8)
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6233] devices added (path: /sys/devices/virtual/net/br-0155d4222d96, iface: br-0155d4222d96)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6234] device added (path: /sys/devices/virtual/net/br-0155d4222d96, iface: br-0155d4222d96): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6242] device (br-f8b63b591b1d): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:4 'up' [br-7acae04b1f00]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6312] device (br-f8b63b591b1d): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6314] device (br-f8b63b591b1d): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6339] device (br-f8b63b591b1d): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6383] device (br-f8b63b591b1d): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6386] device (br-f8b63b591b1d): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6424] device (br-f8b63b591b1d): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:6 'up' [br-f8b63b591b1d]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6681] device (br-0155d4222d96): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6692] keyfile: add connection in-memory (9a0a87ea-fea9-46b2-8f9e-9f3366e72559,"br-0155d4222d96")
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:5 'up' [br-f62e4efcf75e]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-0155d4222d96.IPv4 with address 172.26.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6704] device (br-0155d4222d96): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6711] device (br-0155d4222d96): Activation: starting connection 'br-0155d4222d96' (9a0a87ea-fea9-46b2-8f9e-9f3366e72559)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6715] device (br-0155d4222d96): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6718] device (br-0155d4222d96): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6734] device (br-0155d4222d96): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-0155d4222d96.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.26.0.1 on br-0155d4222d96.IPv4.
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-0155d4222d96: link is not ready
+lip 07 11:22:14 cosphere-oko systemd-udevd[1964]: [0;1;39mCould not generate persistent MAC address for br-3de884374924: No such file or directory[0m
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6775] device (br-0155d4222d96): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6811] manager: (br-3de884374924): new Bridge device (/org/freedesktop/NetworkManager/Devices/9)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6814] device (br-0155d4222d96): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6844] devices added (path: /sys/devices/virtual/net/br-3de884374924, iface: br-3de884374924)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6844] device added (path: /sys/devices/virtual/net/br-3de884374924, iface: br-3de884374924): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6845] device (br-0155d4222d96): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.6906] device (br-0155d4222d96): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:7 'up' [br-0155d4222d96]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7276] device (br-3de884374924): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3de884374924.IPv4 with address 172.25.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7287] keyfile: add connection in-memory (03798a1b-6256-45d0-84d0-8d64a6c1eb95,"br-3de884374924")
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-3de884374924.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.25.0.1 on br-3de884374924.IPv4.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7302] device (br-3de884374924): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7309] device (br-3de884374924): Activation: starting connection 'br-3de884374924' (03798a1b-6256-45d0-84d0-8d64a6c1eb95)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7320] device (br-3de884374924): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-3de884374924: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7327] manager: (br-b28d8eead52d): new Bridge device (/org/freedesktop/NetworkManager/Devices/10)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7335] device (br-3de884374924): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:6 'up' [br-f8b63b591b1d]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7381] devices added (path: /sys/devices/virtual/net/br-b28d8eead52d, iface: br-b28d8eead52d)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7382] device added (path: /sys/devices/virtual/net/br-b28d8eead52d, iface: br-b28d8eead52d): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7423] device (br-3de884374924): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7444] device (br-3de884374924): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7448] device (br-3de884374924): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7450] device (br-3de884374924): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7494] device (br-3de884374924): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:8 'up' [br-3de884374924]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-b28d8eead52d.IPv4 with address 192.168.32.1.
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-b28d8eead52d: link is not ready
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-b28d8eead52d.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7844] device (br-b28d8eead52d): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.32.1 on br-b28d8eead52d.IPv4.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7859] keyfile: add connection in-memory (2baa982d-71fd-49a3-9648-a0b59aa1f36e,"br-b28d8eead52d")
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7871] device (br-b28d8eead52d): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7897] device (br-b28d8eead52d): Activation: starting connection 'br-b28d8eead52d' (2baa982d-71fd-49a3-9648-a0b59aa1f36e)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7906] device (br-b28d8eead52d): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7955] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/11)
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:7 'up' [br-0155d4222d96]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7959] devices added (path: /sys/devices/virtual/net/docker0, iface: docker0)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7959] device added (path: /sys/devices/virtual/net/docker0, iface: docker0): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7962] device (br-b28d8eead52d): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.7982] device (br-b28d8eead52d): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8006] device (br-b28d8eead52d): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8042] device (br-b28d8eead52d): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8044] device (br-b28d8eead52d): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8102] device (br-b28d8eead52d): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:9 'up' [br-b28d8eead52d]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:8 'up' [br-3de884374924]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:9 'up' [br-b28d8eead52d]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8641] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8653] keyfile: add connection in-memory (e21312af-bf1b-4eca-b61e-5e87e2ce96aa,"docker0")
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface docker0.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8669] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8681] device (docker0): Activation: starting connection 'docker0' (e21312af-bf1b-4eca-b61e-5e87e2ce96aa)
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8710] devices added (path: /sys/devices/virtual/net/br-0b03a88e1016, iface: br-0b03a88e1016)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8711] device added (path: /sys/devices/virtual/net/br-0b03a88e1016, iface: br-0b03a88e1016): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8728] device (docker0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8738] manager: (br-0b03a88e1016): new Bridge device (/org/freedesktop/NetworkManager/Devices/12)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8778] device (docker0): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8785] device (docker0): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8851] device (docker0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8872] device (docker0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:10 'up' [docker0]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8878] device (docker0): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.8929] device (docker0): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:10 'up' [docker0]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-0b03a88e1016.IPv4 with address 172.20.0.1.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9379] device (br-0b03a88e1016): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: New relevant interface br-0b03a88e1016.IPv4 for mDNS.
+lip 07 11:22:14 cosphere-oko avahi-daemon[792]: Registering new address record for 172.20.0.1 on br-0b03a88e1016.IPv4.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9393] keyfile: add connection in-memory (2e9f7cf5-ea46-47de-8930-949486b967ab,"br-0b03a88e1016")
+lip 07 11:22:14 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-0b03a88e1016: link is not ready
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9408] device (br-0b03a88e1016): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9418] device (br-0b03a88e1016): Activation: starting connection 'br-0b03a88e1016' (2e9f7cf5-ea46-47de-8930-949486b967ab)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9421] devices added (path: /sys/devices/virtual/net/br-5805d53fa9d5, iface: br-5805d53fa9d5)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9421] device added (path: /sys/devices/virtual/net/br-5805d53fa9d5, iface: br-5805d53fa9d5): no ifupdown configuration found.
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9434] device (br-0b03a88e1016): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9443] manager: (br-5805d53fa9d5): new Bridge device (/org/freedesktop/NetworkManager/Devices/13)
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9491] device (br-0b03a88e1016): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9502] device (br-0b03a88e1016): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9526] device (br-0b03a88e1016): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9534] device (br-0b03a88e1016): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9537] device (br-0b03a88e1016): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:14 cosphere-oko NetworkManager[836]: <info>  [1499419334.9582] device (br-0b03a88e1016): Activation: successful, device activated.
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:11 'up' [br-0b03a88e1016]: new request (1 scripts)
+lip 07 11:22:14 cosphere-oko nm-dispatcher[976]: req:11 'up' [br-0b03a88e1016]: start running ordered scripts...
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:14 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:14 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:14 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-5805d53fa9d5.IPv4 with address 172.22.0.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0071] device (br-5805d53fa9d5): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-5805d53fa9d5.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.22.0.1 on br-5805d53fa9d5.IPv4.
+lip 07 11:22:15 cosphere-oko systemd-udevd[2563]: [0;1;39mCould not generate persistent MAC address for br-5ab7dbdcc9dc: No such file or directory[0m
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-5805d53fa9d5: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0089] keyfile: add connection in-memory (3fd71714-af93-4d89-aaa2-2f71f792dc84,"br-5805d53fa9d5")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0103] device (br-5805d53fa9d5): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0111] device (br-5805d53fa9d5): Activation: starting connection 'br-5805d53fa9d5' (3fd71714-af93-4d89-aaa2-2f71f792dc84)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0132] device (br-5805d53fa9d5): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0143] manager: (br-5ab7dbdcc9dc): new Bridge device (/org/freedesktop/NetworkManager/Devices/14)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0148] devices added (path: /sys/devices/virtual/net/br-5ab7dbdcc9dc, iface: br-5ab7dbdcc9dc)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0148] device added (path: /sys/devices/virtual/net/br-5ab7dbdcc9dc, iface: br-5ab7dbdcc9dc): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0152] device (br-5805d53fa9d5): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0167] device (br-5805d53fa9d5): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0192] device (br-5805d53fa9d5): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0197] device (br-5805d53fa9d5): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0198] device (br-5805d53fa9d5): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0233] device (br-5805d53fa9d5): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:12 'up' [br-5805d53fa9d5]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:12 'up' [br-5805d53fa9d5]: start running ordered scripts...
+lip 07 11:22:15 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: SME: Trying to authenticate with 00:12:2a:da:ad:08 (SSID='NETIASPOT-DAAD00' freq=2432 MHz)[0m
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: authenticate with 00:12:2a:da:ad:08
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: send auth to 00:12:2a:da:ad:08 (try 1/3)
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0612] device (wlp5s0): supplicant interface state: scanning -> authenticating
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: Trying to associate with 00:12:2a:da:ad:08 (SSID='NETIASPOT-DAAD00' freq=2432 MHz)[0m
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: authenticated
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: associate with 00:12:2a:da:ad:08 (try 1/3)
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: RX AssocResp from 00:12:2a:da:ad:08 (capab=0x431 status=0 aid=22)
+lip 07 11:22:15 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: Associated with 00:12:2a:da:ad:08[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0701] device (wlp5s0): supplicant interface state: authenticating -> associated
+lip 07 11:22:15 cosphere-oko kernel: wlp5s0: associated
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlp5s0: link becomes ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0780] device (wlp5s0): supplicant interface state: associated -> 4-way handshake
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-5ab7dbdcc9dc.IPv4 with address 172.23.0.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0836] device (br-5ab7dbdcc9dc): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-5ab7dbdcc9dc.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-5ab7dbdcc9dc: link is not ready
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.23.0.1 on br-5ab7dbdcc9dc.IPv4.
+lip 07 11:22:15 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Key negotiation completed with 00:12:2a:da:ad:08 [PTK=CCMP GTK=TKIP][0m
+lip 07 11:22:15 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: CTRL-EVENT-CONNECTED - Connection to 00:12:2a:da:ad:08 completed [id=0 id_str=][0m
+lip 07 11:22:15 cosphere-oko systemd-udevd[2690]: [0;1;39mCould not generate persistent MAC address for br-4aad3c9707c9: No such file or directory[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0851] keyfile: add connection in-memory (6b1bdda4-419a-4b72-9d30-e5168d138e84,"br-5ab7dbdcc9dc")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0866] device (br-5ab7dbdcc9dc): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0879] device (br-5ab7dbdcc9dc): Activation: starting connection 'br-5ab7dbdcc9dc' (6b1bdda4-419a-4b72-9d30-e5168d138e84)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0888] devices added (path: /sys/devices/virtual/net/br-4aad3c9707c9, iface: br-4aad3c9707c9)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0888] device added (path: /sys/devices/virtual/net/br-4aad3c9707c9, iface: br-4aad3c9707c9): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0898] device (br-5ab7dbdcc9dc): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0910] manager: (br-4aad3c9707c9): new Bridge device (/org/freedesktop/NetworkManager/Devices/15)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0918] device (wlp5s0): supplicant interface state: 4-way handshake -> completed
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0918] device (wlp5s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'NETIASPOT-DAAD00'.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0954] device (br-5ab7dbdcc9dc): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0964] device (br-5ab7dbdcc9dc): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0968] device (wlp5s0): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.0978] dhcp4 (wlp5s0): activation: beginning transaction (timeout in 45 seconds)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1011] dhcp4 (wlp5s0): dhclient started with pid 2710
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1080] device (br-5ab7dbdcc9dc): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1097] device (br-5ab7dbdcc9dc): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1148] device (br-5ab7dbdcc9dc): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1211] device (br-5ab7dbdcc9dc): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:13 'up' [br-5ab7dbdcc9dc]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:13 'up' [br-5ab7dbdcc9dc]: start running ordered scripts...
+lip 07 11:22:15 cosphere-oko dhclient[2710]: DHCPREQUEST of 192.168.1.4 on wlp5s0 to 255.255.255.255 port 67 (xid=0x1f1a2d75)
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-4aad3c9707c9: link is not ready
+lip 07 11:22:15 cosphere-oko dhclient[2710]: DHCPACK of 192.168.1.4 from 192.168.1.254
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1638] device (br-4aad3c9707c9): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-4aad3c9707c9.IPv4 with address 192.168.64.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1644]   address 192.168.1.4
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-4aad3c9707c9.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1644]   plen 24 (255.255.255.0)
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.64.1 on br-4aad3c9707c9.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1644]   gateway 192.168.1.254
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1644]   server identifier 192.168.1.254
+lip 07 11:22:15 cosphere-oko dhclient[2710]: bound to 192.168.1.4 -- renewal in 42099 seconds.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1645]   lease time 86400
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1645]   hostname 'cosphere-oko'
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1645]   nameserver '192.168.1.254'
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1645]   domain name 'home'
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1645] dhcp4 (wlp5s0): state changed unknown -> bound
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko systemd-udevd[2810]: [0;1;39mCould not generate persistent MAC address for br-932821ac324a: No such file or directory[0m
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1692] keyfile: add connection in-memory (f6040043-6ac6-41a6-bb6b-4c3723b3b5da,"br-4aad3c9707c9")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1708] device (br-4aad3c9707c9): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1721] device (br-4aad3c9707c9): Activation: starting connection 'br-4aad3c9707c9' (f6040043-6ac6-41a6-bb6b-4c3723b3b5da)
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface wlp5s0.IPv4 with address 192.168.1.4.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface wlp5s0.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.1.4 on wlp5s0.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1753] device (wlp5s0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1765] manager: (br-932821ac324a): new Bridge device (/org/freedesktop/NetworkManager/Devices/16)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1775] devices added (path: /sys/devices/virtual/net/br-932821ac324a, iface: br-932821ac324a)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1775] device added (path: /sys/devices/virtual/net/br-932821ac324a, iface: br-932821ac324a): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1798] device (br-4aad3c9707c9): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Cannot reach: https://daisy.ubuntu.com
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1805] policy: set 'NETIASPOT-DAAD00' (wlp5s0) as default for IPv4 routing and DNS
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1813] dns-plugin[0x18f5500]: starting dnsmasq...
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.1847] dns-mgr: Writing DNS information to /sbin/resolvconf
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: started, version 2.75 cache disabled
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: DBus support enabled: connected to system bus
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: [0;1;39mwarning: no upstream servers configured[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2256] dnsmasq[0x18f5500]: dnsmasq appeared as :1.49
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: setting upstream servers from DBus
+lip 07 11:22:15 cosphere-oko dnsmasq[2838]: using nameserver 192.168.1.254#53
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2265] device (br-4aad3c9707c9): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2268] device (br-4aad3c9707c9): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2292] device (wlp5s0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2324] device (br-4aad3c9707c9): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2327] device (wlp5s0): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2329] manager: NetworkManager state is now CONNECTED_GLOBAL
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2330] manager: NetworkManager state is now CONNECTED_SITE
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2330] manager: NetworkManager state is now CONNECTED_GLOBAL
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2377] device (wlp5s0): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:14 'up' [wlp5s0]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:14 'up' [wlp5s0]: start running ordered scripts...
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2390] device (br-4aad3c9707c9): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2392] device (br-4aad3c9707c9): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2472] device (br-4aad3c9707c9): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:15 'up' [br-4aad3c9707c9]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-932821ac324a.IPv4 with address 192.168.80.1.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-932821ac324a.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.80.1 on br-932821ac324a.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2600] device (br-932821ac324a): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-932821ac324a: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2613] manager: (br-98ba8b89ba91): new Bridge device (/org/freedesktop/NetworkManager/Devices/17)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2636] keyfile: add connection in-memory (4c7b6797-7255-456e-920a-16594fc82d8d,"br-932821ac324a")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2653] device (br-932821ac324a): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2664] device (br-932821ac324a): Activation: starting connection 'br-932821ac324a' (4c7b6797-7255-456e-920a-16594fc82d8d)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2677] devices added (path: /sys/devices/virtual/net/br-98ba8b89ba91, iface: br-98ba8b89ba91)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2677] device added (path: /sys/devices/virtual/net/br-98ba8b89ba91, iface: br-98ba8b89ba91): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2684] device (br-932821ac324a): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2693] device (br-932821ac324a): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2697] device (br-932821ac324a): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2720] device (br-932821ac324a): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2781] device (br-932821ac324a): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2786] device (br-932821ac324a): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.2829] device (br-932821ac324a): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:16 'up' [br-932821ac324a]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-98ba8b89ba91.IPv4 with address 172.27.0.1.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-98ba8b89ba91.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3411] device (br-98ba8b89ba91): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.27.0.1 on br-98ba8b89ba91.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3429] keyfile: add connection in-memory (f8a94646-c798-43ea-85df-3383dc3ae55e,"br-98ba8b89ba91")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3441] device (br-98ba8b89ba91): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-98ba8b89ba91: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3455] device (br-98ba8b89ba91): Activation: starting connection 'br-98ba8b89ba91' (f8a94646-c798-43ea-85df-3383dc3ae55e)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3469] device (br-98ba8b89ba91): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3493] manager: (br-a265be871db0): new Bridge device (/org/freedesktop/NetworkManager/Devices/18)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3499] devices added (path: /sys/devices/virtual/net/br-a265be871db0, iface: br-a265be871db0)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3500] device added (path: /sys/devices/virtual/net/br-a265be871db0, iface: br-a265be871db0): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3572] device (br-98ba8b89ba91): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3583] device (br-98ba8b89ba91): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3602] device (br-98ba8b89ba91): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3607] device (br-98ba8b89ba91): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3613] device (br-98ba8b89ba91): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.3673] device (br-98ba8b89ba91): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:17 'up' [br-98ba8b89ba91]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-a265be871db0.IPv4 with address 172.19.0.1.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-a265be871db0.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4251] device (br-a265be871db0): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.19.0.1 on br-a265be871db0.IPv4.
+lip 07 11:22:15 cosphere-oko systemd-udevd[3149]: [0;1;39mCould not generate persistent MAC address for br-a60e2c54500b: No such file or directory[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4266] keyfile: add connection in-memory (b8ea26df-4998-49a8-a697-34542c5cf037,"br-a265be871db0")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4279] device (br-a265be871db0): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4285] device (br-a265be871db0): Activation: starting connection 'br-a265be871db0' (b8ea26df-4998-49a8-a697-34542c5cf037)
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-a265be871db0: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4289] device (br-a265be871db0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4295] manager: (br-a60e2c54500b): new Bridge device (/org/freedesktop/NetworkManager/Devices/19)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4300] device (br-a265be871db0): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4306] device (br-a265be871db0): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4337] device (br-a265be871db0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4349] devices added (path: /sys/devices/virtual/net/br-a60e2c54500b, iface: br-a60e2c54500b)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4350] device added (path: /sys/devices/virtual/net/br-a60e2c54500b, iface: br-a60e2c54500b): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4357] device (br-a265be871db0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4359] device (br-a265be871db0): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4396] device (br-a265be871db0): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:18 'up' [br-a265be871db0]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.4488] manager: startup complete
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-a60e2c54500b.IPv4 with address 172.30.0.1.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-a60e2c54500b.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5193] device (br-a60e2c54500b): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.30.0.1 on br-a60e2c54500b.IPv4.
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-a60e2c54500b: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5209] keyfile: add connection in-memory (7de22b1f-4ae7-4d7e-8530-a60ee7f5d239,"br-a60e2c54500b")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5225] device (br-a60e2c54500b): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5241] device (br-a60e2c54500b): Activation: starting connection 'br-a60e2c54500b' (7de22b1f-4ae7-4d7e-8530-a60ee7f5d239)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5250] manager: (br-0de28d1403b5): new Bridge device (/org/freedesktop/NetworkManager/Devices/20)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5255] devices added (path: /sys/devices/virtual/net/br-0de28d1403b5, iface: br-0de28d1403b5)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5255] device added (path: /sys/devices/virtual/net/br-0de28d1403b5, iface: br-0de28d1403b5): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5263] device (br-a60e2c54500b): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5364] device (br-a60e2c54500b): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5373] device (br-a60e2c54500b): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5395] device (br-a60e2c54500b): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5401] device (br-a60e2c54500b): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5403] device (br-a60e2c54500b): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.5447] device (br-a60e2c54500b): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:19 'up' [br-a60e2c54500b]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-0de28d1403b5.IPv4 with address 172.24.0.1.
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-0de28d1403b5: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6238] device (br-0de28d1403b5): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko whoopsie[835]: [11:22:15] online
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-0de28d1403b5.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6251] keyfile: add connection in-memory (ee87ab63-b498-4df8-b51e-06e8f923473c,"br-0de28d1403b5")
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 172.24.0.1 on br-0de28d1403b5.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6265] device (br-0de28d1403b5): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:20 'up' [br-0de28d1403b5]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6273] device (br-0de28d1403b5): Activation: starting connection 'br-0de28d1403b5' (ee87ab63-b498-4df8-b51e-06e8f923473c)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6278] device (br-0de28d1403b5): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6284] manager: (br-3c07257bda09): new Bridge device (/org/freedesktop/NetworkManager/Devices/21)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6290] devices added (path: /sys/devices/virtual/net/br-3c07257bda09, iface: br-3c07257bda09)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6290] device added (path: /sys/devices/virtual/net/br-3c07257bda09, iface: br-3c07257bda09): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6292] device (br-0de28d1403b5): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6302] device (br-0de28d1403b5): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6328] device (br-0de28d1403b5): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6332] device (br-0de28d1403b5): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6335] device (br-0de28d1403b5): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.6378] device (br-0de28d1403b5): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3c07257bda09.IPv4 with address 192.168.16.1.
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: New relevant interface br-3c07257bda09.IPv4 for mDNS.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7306] device (br-3c07257bda09): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.16.1 on br-3c07257bda09.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7319] keyfile: add connection in-memory (8dc5e007-368f-482b-afc4-dd009f423b01,"br-3c07257bda09")
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-3c07257bda09: link is not ready
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7335] device (br-3c07257bda09): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7353] device (br-3c07257bda09): Activation: starting connection 'br-3c07257bda09' (8dc5e007-368f-482b-afc4-dd009f423b01)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7362] manager: (br-3d6074f60215): new Bridge device (/org/freedesktop/NetworkManager/Devices/22)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7375] device (br-3c07257bda09): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7388] devices added (path: /sys/devices/virtual/net/br-3d6074f60215, iface: br-3d6074f60215)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7388] device added (path: /sys/devices/virtual/net/br-3d6074f60215, iface: br-3d6074f60215): no ifupdown configuration found.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7391] device (br-3c07257bda09): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7395] device (br-3c07257bda09): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7427] device (br-3c07257bda09): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7455] device (br-3c07257bda09): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7459] device (br-3c07257bda09): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.7502] device (br-3c07257bda09): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:21 'up' [br-3c07257bda09]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:15 'up' [br-4aad3c9707c9]: start running ordered scripts...
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3d6074f60215.IPv4 with address 192.168.48.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8506] device (br-3d6074f60215): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8516] keyfile: add connection in-memory (5cae124d-ceab-4ae8-aaf1-2212bea4f85b,"br-3d6074f60215")
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8528] device (br-3d6074f60215): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8535] device (br-3d6074f60215): Activation: starting connection 'br-3d6074f60215' (5cae124d-ceab-4ae8-aaf1-2212bea4f85b)
+lip 07 11:22:15 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): br-3d6074f60215: link is not ready
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: [0;1;39mIP_ADD_MEMBERSHIP failed: No buffer space available[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8547] device (br-3d6074f60215): state change: disconnected -> prepare (reason 'none') [30 40 0]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Registering new address record for 192.168.48.1 on br-3d6074f60215.IPv4.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8552] device (br-3d6074f60215): state change: prepare -> config (reason 'none') [40 50 0]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3d6074f60215.IPv4 with address 192.168.48.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8555] device (br-3d6074f60215): state change: config -> ip-config (reason 'none') [50 70 0]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: [0;1;39mIP_ADD_MEMBERSHIP failed: No buffer space available[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8614] device (br-3d6074f60215): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3d6074f60215.IPv4 with address 192.168.48.1.
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8620] device (br-3d6074f60215): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+lip 07 11:22:15 cosphere-oko avahi-daemon[792]: [0;1;39mIP_ADD_MEMBERSHIP failed: No buffer space available[0m
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8623] device (br-3d6074f60215): state change: secondaries -> activated (reason 'none') [90 100 0]
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:22 'up' [br-3d6074f60215]: new request (1 scripts)
+lip 07 11:22:15 cosphere-oko NetworkManager[836]: <info>  [1499419335.8679] device (br-3d6074f60215): Activation: successful, device activated.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:15 cosphere-oko nm-dispatcher[976]: req:16 'up' [br-932821ac324a]: start running ordered scripts...
+lip 07 11:22:15 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:15.921520047+02:00" level=info msg="Removing stale sandbox 3f9d23bf401176f1f92d3433fabf2320e2ec0d31b6f52c95e44cc4fba02be819 (70f9908ec2ad014ccc10556bee8803330cd6e112ad9b83502be3e4774319690b)"
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:15 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:15 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:15 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:17 'up' [br-98ba8b89ba91]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.067052904+02:00" level=info msg="Removing stale sandbox 97738fb29f7720a36709f3336682f8e183c559b27b8c973f30314055cea851bf (6ddac684467bd666fb50ac4aa7d1e46f543c1e77aac12f7a82a8e07f7aee68ac)"
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:16 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:18 'up' [br-a265be871db0]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:16 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:19 'up' [br-a60e2c54500b]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.235135609+02:00" level=info msg="Removing stale sandbox de668ff771814117142708c22fd7ee4c352c99922077940540c186acc83eee93 (020beb7f739c4e0e51cde6e11c53b67b3458e11d73e0f4168cfdca175d313b75)"
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.369313302+02:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:16 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:20 'up' [br-0de28d1403b5]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko kernel: nouveau 0000:01:00.0: DRM: evicting buffers...
+lip 07 11:22:16 cosphere-oko kernel: nouveau 0000:01:00.0: DRM: waiting for kernel channels to go idle...
+lip 07 11:22:16 cosphere-oko kernel: nouveau 0000:01:00.0: DRM: suspending client object trees...
+lip 07 11:22:16 cosphere-oko kernel: nouveau 0000:01:00.0: DRM: suspending kernel object tree...
+lip 07 11:22:16 cosphere-oko lightdm[1268]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+lip 07 11:22:16 cosphere-oko org.gtk.vfs.Daemon[1303]: [0;1;39mA connection to the bus can't be made[0m
+lip 07 11:22:16 cosphere-oko lightdm[1351]: pam_unix(lightdm:session): session opened for user maciej by (uid=0)
+lip 07 11:22:16 cosphere-oko systemd[1]: Created slice User Slice of maciej.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-3d6074f60215.IPv4 with address 192.168.48.1.
+lip 07 11:22:16 cosphere-oko avahi-daemon[792]: [0;1;39mIP_ADD_MEMBERSHIP failed: No buffer space available[0m
+lip 07 11:22:16 cosphere-oko systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+lip 07 11:22:16 cosphere-oko dbus[803]: [0;1;39m[system] Rejected send message, 2 matched rules; type="method_call", sender=":1.53" (uid=108 pid=4229 comm="/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.2" (uid=0 pid=797 comm="/usr/lib/bluetooth/bluetoothd ")[0m
+lip 07 11:22:16 cosphere-oko systemd-logind[846]: New session c2 of user maciej.
+-- Subject: A new session c2 has been created for user maciej
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID c2 has been created for the user maciej.
+-- 
+-- The leading process of the session is 1351.
+lip 07 11:22:16 cosphere-oko dbus[803]: [0;1;39m[system] Rejected send message, 2 matched rules; type="method_call", sender=":1.53" (uid=108 pid=4229 comm="/usr/lib/x86_64-linux-gnu/indicator-bluetooth/indi") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=797 comm="/usr/lib/bluetooth/bluetoothd ")[0m
+lip 07 11:22:16 cosphere-oko systemd[1]: Started Session c2 of user maciej.
+-- Subject: Unit session-c2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:16 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: pam_unix(systemd-user:session): session opened for user maciej by (uid=0)
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:21 'up' [br-3c07257bda09]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko systemd[4242]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko systemd[4242]: Startup finished in 36ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 36477 microseconds.
+lip 07 11:22:16 cosphere-oko systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419336.6333] device (vethc4b596f): failed to find device 24 'vethc4b596f' with udev[0m
+lip 07 11:22:16 cosphere-oko systemd-udevd[4403]: [0;1;39mCould not generate persistent MAC address for vethc4b596f: No such file or directory[0m
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6341] manager: (vethc4b596f): new Veth device (/org/freedesktop/NetworkManager/Devices/23)
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419336.6345] device (veth4fe4a5f): failed to find device 25 'veth4fe4a5f' with udev[0m
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6353] manager: (veth4fe4a5f): new Veth device (/org/freedesktop/NetworkManager/Devices/24)
+lip 07 11:22:16 cosphere-oko systemd-udevd[4404]: [0;1;39mCould not generate persistent MAC address for veth4fe4a5f: No such file or directory[0m
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6384] devices added (path: /sys/devices/virtual/net/vethc4b596f, iface: vethc4b596f)
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6384] device added (path: /sys/devices/virtual/net/vethc4b596f, iface: vethc4b596f): no ifupdown configuration found.
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered blocking state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered disabled state
+lip 07 11:22:16 cosphere-oko kernel: device veth4fe4a5f entered promiscuous mode
+lip 07 11:22:16 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): veth4fe4a5f: link is not ready
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered blocking state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered forwarding state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered disabled state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered blocking state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered disabled state
+lip 07 11:22:16 cosphere-oko kernel: device veth24b03e4 entered promiscuous mode
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419336.6415] device (veth87e49bd): failed to find device 26 'veth87e49bd' with udev[0m
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6425] manager: (veth87e49bd): new Veth device (/org/freedesktop/NetworkManager/Devices/25)
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419336.6430] device (veth24b03e4): failed to find device 27 'veth24b03e4' with udev[0m
+lip 07 11:22:16 cosphere-oko NetworkManager[836]: <info>  [1499419336.6440] manager: (veth24b03e4): new Veth device (/org/freedesktop/NetworkManager/Devices/26)
+lip 07 11:22:16 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): veth24b03e4: link is not ready
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered blocking state
+lip 07 11:22:16 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered forwarding state
+lip 07 11:22:16 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_CHANGE): br-932821ac324a: link becomes ready
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.657390635+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.657420503+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:16 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:16 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:16 cosphere-oko nm-dispatcher[976]: req:22 'up' [br-3d6074f60215]: start running ordered scripts...
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.709512624+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lip 07 11:22:16 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:16.709535055+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lip 07 11:22:16 cosphere-oko org.ayatana.bamf[4625]: bamfdaemon start/running, process 4710
+lip 07 11:22:17 cosphere-oko org.a11y.Bus[4625]: [0;1;39mActivating service name='org.a11y.atspi.Registry'[0m
+lip 07 11:22:17 cosphere-oko org.a11y.Bus[4625]: [0;1;39m** (process:4732): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files[0m
+lip 07 11:22:17 cosphere-oko org.a11y.Bus[4625]: [0;1;39mSuccessfully activated service 'org.a11y.atspi.Registry'[0m
+lip 07 11:22:17 cosphere-oko org.a11y.atspi.Registry[4740]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+lip 07 11:22:17 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface wlp5s0.IPv6 with address fe80::e013:3379:cf84:33db.
+lip 07 11:22:17 cosphere-oko avahi-daemon[792]: New relevant interface wlp5s0.IPv6 for mDNS.
+lip 07 11:22:17 cosphere-oko avahi-daemon[792]: Registering new address record for fe80::e013:3379:cf84:33db on wlp5s0.*.
+lip 07 11:22:17 cosphere-oko systemd-udevd[4402]: [0;1;39mCould not generate persistent MAC address for veth87e49bd: No such file or directory[0m
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0554] devices added (path: /sys/devices/virtual/net/veth4fe4a5f, iface: veth4fe4a5f)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0555] device added (path: /sys/devices/virtual/net/veth4fe4a5f, iface: veth4fe4a5f): no ifupdown configuration found.
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered disabled state
+lip 07 11:22:17 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:17 cosphere-oko systemd-udevd[4417]: [0;1;39mCould not generate persistent MAC address for veth24b03e4: No such file or directory[0m
+lip 07 11:22:17 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419337.0600] device (veth246664f): failed to find device 28 'veth246664f' with udev[0m
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered blocking state
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered disabled state
+lip 07 11:22:17 cosphere-oko kernel: device vethda82540 entered promiscuous mode
+lip 07 11:22:17 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_UP): vethda82540: link is not ready
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered blocking state
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered forwarding state
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0610] manager: (veth246664f): new Veth device (/org/freedesktop/NetworkManager/Devices/27)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: [0;1;39m<warn>  [1499419337.0614] device (vethda82540): failed to find device 29 'vethda82540' with udev[0m
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0622] manager: (vethda82540): new Veth device (/org/freedesktop/NetworkManager/Devices/28)
+lip 07 11:22:17 cosphere-oko systemd-udevd[4403]: [0;1;39mCould not generate persistent MAC address for vethda82540: No such file or directory[0m
+lip 07 11:22:17 cosphere-oko systemd-udevd[4404]: [0;1;39mCould not generate persistent MAC address for veth246664f: No such file or directory[0m
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0880] devices added (path: /sys/devices/virtual/net/veth246664f, iface: veth246664f)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0880] device added (path: /sys/devices/virtual/net/veth246664f, iface: veth246664f): no ifupdown configuration found.
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0948] devices added (path: /sys/devices/virtual/net/veth24b03e4, iface: veth24b03e4)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0949] device added (path: /sys/devices/virtual/net/veth24b03e4, iface: veth24b03e4): no ifupdown configuration found.
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0982] devices added (path: /sys/devices/virtual/net/veth87e49bd, iface: veth87e49bd)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.0982] device added (path: /sys/devices/virtual/net/veth87e49bd, iface: veth87e49bd): no ifupdown configuration found.
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.1009] devices added (path: /sys/devices/virtual/net/vethda82540, iface: vethda82540)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.1009] device added (path: /sys/devices/virtual/net/vethda82540, iface: vethda82540): no ifupdown configuration found.
+lip 07 11:22:17 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:17.136945337+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+lip 07 11:22:17 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:17.136976680+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+lip 07 11:22:17 cosphere-oko systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+lip 07 11:22:17 cosphere-oko sshd[1171]: Received SIGHUP; restarting.
+lip 07 11:22:17 cosphere-oko systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+lip 07 11:22:17 cosphere-oko sshd[1171]: Server listening on 0.0.0.0 port 22.
+lip 07 11:22:17 cosphere-oko sshd[1171]: Server listening on :: port 22.
+lip 07 11:22:17 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:17+02:00" level=info msg="Firewalld running: false"
+lip 07 11:22:17 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:17+02:00" level=info msg="Firewalld running: false"
+lip 07 11:22:17 cosphere-oko kernel: eth0: renamed from veth87e49bd
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.3655] devices removed (path: /sys/devices/virtual/net/veth87e49bd, iface: veth87e49bd)
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.3656] device (veth87e49bd): driver 'veth' does not support carrier detection.
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.3661] device (veth24b03e4): link connected
+lip 07 11:22:17 cosphere-oko NetworkManager[836]: <info>  [1499419337.3661] device (br-932821ac324a): link connected
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered disabled state
+lip 07 11:22:17 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth24b03e4: link becomes ready
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered blocking state
+lip 07 11:22:17 cosphere-oko kernel: br-932821ac324a: port 2(veth24b03e4) entered forwarding state
+lip 07 11:22:18 cosphere-oko kernel: eth0: renamed from vethc4b596f
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.2295] devices removed (path: /sys/devices/virtual/net/vethc4b596f, iface: vethc4b596f)
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.2295] device (vethc4b596f): driver 'veth' does not support carrier detection.
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.2299] device (veth4fe4a5f): link connected
+lip 07 11:22:18 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth4fe4a5f: link becomes ready
+lip 07 11:22:18 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered blocking state
+lip 07 11:22:18 cosphere-oko kernel: br-932821ac324a: port 1(veth4fe4a5f) entered forwarding state
+lip 07 11:22:18 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:18+02:00" level=info msg="Firewalld running: false"
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.3695] device (veth246664f): driver 'veth' does not support carrier detection.
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.3707] devices removed (path: /sys/devices/virtual/net/veth246664f, iface: veth246664f)
+lip 07 11:22:18 cosphere-oko kernel: eth0: renamed from veth246664f
+lip 07 11:22:18 cosphere-oko NetworkManager[836]: <info>  [1499419338.3938] device (vethda82540): link connected
+lip 07 11:22:18 cosphere-oko kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethda82540: link becomes ready
+lip 07 11:22:18 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered blocking state
+lip 07 11:22:18 cosphere-oko kernel: br-932821ac324a: port 3(vethda82540) entered forwarding state
+lip 07 11:22:18 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:18.483447300+02:00" level=info msg="Loading containers: done."
+lip 07 11:22:18 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:18.849358184+02:00" level=info msg="Daemon has completed initialization"
+lip 07 11:22:18 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:18.849647593+02:00" level=info msg="Docker daemon" commit=c6d412e graphdriver=aufs version=17.03.1-ce
+lip 07 11:22:18 cosphere-oko dockerd[1170]: time="2017-07-07T11:22:18.861830239+02:00" level=info msg="API listen on /var/run/docker.sock"
+lip 07 11:22:18 cosphere-oko systemd[1]: Started Docker Application Container Engine.
+-- Subject: Unit docker.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit docker.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:18 cosphere-oko systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:18 cosphere-oko systemd[1]: Reached target Graphical Interface.
+-- Subject: Unit graphical.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:18 cosphere-oko systemd[1]: Started Stop ureadahead data collection 45s after completed startup.
+-- Subject: Unit ureadahead-stop.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.timer has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:18 cosphere-oko systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+lip 07 11:22:18 cosphere-oko systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:18 cosphere-oko systemd[1]: Startup finished in 3.186s (kernel) + 11.255s (userspace) = 24.470s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 3186607 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 11255480 microseconds.
+lip 07 11:22:18 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface veth24b03e4.IPv6 with address fe80::40a2:66ff:fe35:1bdd.
+lip 07 11:22:18 cosphere-oko avahi-daemon[792]: New relevant interface veth24b03e4.IPv6 for mDNS.
+lip 07 11:22:18 cosphere-oko avahi-daemon[792]: Registering new address record for fe80::40a2:66ff:fe35:1bdd on veth24b03e4.*.
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface br-932821ac324a.IPv6 with address fe80::42:1eff:feb7:b70.
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: New relevant interface br-932821ac324a.IPv6 for mDNS.
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: Registering new address record for fe80::42:1eff:feb7:b70 on br-932821ac324a.*.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Successfully made thread 5249 of process 5249 (n/a) owned by '1000' high priority at nice level -11.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 4 threads of 2 processes of 2 users.
+lip 07 11:22:19 cosphere-oko org.gnome.ScreenSaver[4625]: [0;1;39m** (gnome-screensaver:5149): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files[0m
+lip 07 11:22:19 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39mThe SSH agent was already initialized[0m
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 4 threads of 2 processes of 2 users.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Successfully made thread 5274 of process 5249 (n/a) owned by '1000' RT at priority 5.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 5 threads of 2 processes of 2 users.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 5 threads of 2 processes of 2 users.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Successfully made thread 5275 of process 5249 (n/a) owned by '1000' RT at priority 5.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 6 threads of 2 processes of 2 users.
+lip 07 11:22:19 cosphere-oko pulseaudio[5249]: [0;1;31m[pulseaudio] backend-ofono.c: Failed to register as a handsfree audio agent with ofono: org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files[0m
+lip 07 11:22:19 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39mThe PKCS#11 component was already initialized[0m
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Successfully made thread 5279 of process 5279 (n/a) owned by '1000' high priority at nice level -11.
+lip 07 11:22:19 cosphere-oko rtkit-daemon[1414]: Supervising 7 threads of 3 processes of 2 users.
+lip 07 11:22:19 cosphere-oko pulseaudio[5279]: [0;1;31m[pulseaudio] pid.c: Daemon already running.[0m
+lip 07 11:22:19 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39mThe Secret Service was already initialized[0m
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+lip 07 11:22:19 cosphere-oko NetworkManager[836]: <info>  [1499419339.4495] WiFi hardware radio set enabled
+lip 07 11:22:19 cosphere-oko NetworkManager[836]: <info>  [1499419339.4496] WWAN hardware radio set enabled
+lip 07 11:22:19 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'[0m
+lip 07 11:22:19 cosphere-oko systemd[1]: Starting Locale Service...
+-- Subject: Unit systemd-localed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has begun starting up.
+lip 07 11:22:19 cosphere-oko gnome-session-binary[4975]: [0;1;39mEntering running state[0m
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: (process:5308): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: (process:5308): indicator-application-service-WARNING **: Name Lost
+lip 07 11:22:19 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.locale1'[0m
+lip 07 11:22:19 cosphere-oko systemd[1]: Started Locale Service.
+-- Subject: Unit systemd-localed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:19 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'[0m
+lip 07 11:22:19 cosphere-oko systemd[1]: Starting Disk Manager...
+-- Subject: Unit udisks2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has begun starting up.
+lip 07 11:22:19 cosphere-oko udisksd[5332]: [0;1;39mudisks daemon version 2.1.7 starting[0m
+lip 07 11:22:19 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.UDisks2'[0m
+lip 07 11:22:19 cosphere-oko systemd[1]: Started Disk Manager.
+-- Subject: Unit udisks2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:22:19 cosphere-oko udisksd[5332]: [0;1;39mAcquired the name org.freedesktop.UDisks2 on the system message bus[0m
+lip 07 11:22:19 cosphere-oko org.gtk.vfs.AfcVolumeMonitor[4625]: Volume monitor alive
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface vethda82540.IPv6 with address fe80::8894:2eff:fe53:66a7.
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: New relevant interface vethda82540.IPv6 for mDNS.
+lip 07 11:22:19 cosphere-oko avahi-daemon[792]: Registering new address record for fe80::8894:2eff:fe53:66a7 on vethda82540.*.
+lip 07 11:22:19 cosphere-oko polkitd(authority=local)[978]: [0;1;39mRegistered Authentication Agent for unix-session:c2 (system bus name :1.90 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: (gnome-software:5307): Gs-WARNING **: Failed to create permission org.freedesktop.packagekit.trigger-offline-update: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Action org.freedesktop.packagekit.trigger-offline-update is not registered
+lip 07 11:22:19 cosphere-oko gnome-session[4975]: (gnome-software:5307): Gs-WARNING **: Failed to create permission org.freedesktop.packagekit.trigger-offline-update: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Action org.freedesktop.packagekit.trigger-offline-update is not registered
+lip 07 11:22:19 cosphere-oko dbus[803]: [0;1;39m[system] Activating service name='org.freedesktop.fwupd' (using servicehelper)[0m
+lip 07 11:22:20 cosphere-oko avahi-daemon[792]: Joining mDNS multicast group on interface veth4fe4a5f.IPv6 with address fe80::9cdc:7fff:fe70:29b1.
+lip 07 11:22:20 cosphere-oko avahi-daemon[792]: New relevant interface veth4fe4a5f.IPv6 for mDNS.
+lip 07 11:22:20 cosphere-oko avahi-daemon[792]: Registering new address record for fe80::9cdc:7fff:fe70:29b1 on veth4fe4a5f.*.
+lip 07 11:22:20 cosphere-oko org.gnome.ScreenSaver[4625]: [0;1;39m** Message: Lost the name, shutting down.[0m
+lip 07 11:22:20 cosphere-oko gnome-session[4975]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/1 (g-dbus-error-quark, 19)[0m
+lip 07 11:22:20 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.fwupd'[0m
+lip 07 11:22:23 cosphere-oko gnome-session[4975]: (gnome-software:5307): GsPlugin-WARNING **: failed to load cached icon network-manager-gnome_preferences-system-network.png: Failed to open file '/var/lib/app-info/icons/ubuntu-xenial-security-main/network-manager-gnome_preferences-system-network.png': No such file or directory
+lip 07 11:22:25 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39mcouldn't allocate secure memory to keep passwords and or keys from being written to the disk[0m
+lip 07 11:22:25 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39masked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered[0m
+lip 07 11:22:25 cosphere-oko gnome-keyring-daemon[4421]: [0;1;39masked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered[0m
+lip 07 11:22:38 cosphere-oko systemd-journald[254]: Forwarding to syslog missed 209 messages.
+-- Subject: One or more messages could not be forwarded to syslog
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- One or more messages could not be forwarded to the syslog service
+-- running side-by-side with journald. This usually indicates that the
+-- syslog implementation has not been able to keep up with the speed of
+-- messages queued.
+lip 07 11:22:39 cosphere-oko systemd-timesyncd[672]: Synchronized to time server 91.189.89.199:123 (ntp.ubuntu.com).
+lip 07 11:22:39 cosphere-oko org.gnome.zeitgeist.Engine[4625]: [0;1;39m** (zeitgeist-datahub:6346): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus![0m
+lip 07 11:23:04 cosphere-oko systemd[1]: Starting Stop ureadahead data collection...
+-- Subject: Unit ureadahead-stop.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.service has begun starting up.
+lip 07 11:23:04 cosphere-oko systemd[1]: Started Stop ureadahead data collection.
+-- Subject: Unit ureadahead-stop.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:23:04 cosphere-oko systemd[1]: Stopped Read required files in advance.
+-- Subject: Unit ureadahead.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead.service has finished shutting down.
+lip 07 11:23:24 cosphere-oko pkexec[6763]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+lip 07 11:23:24 cosphere-oko pkexec[6763]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+lip 07 11:23:24 cosphere-oko pkexec[6763]: [0;1;39mmaciej: Executing command [USER=root] [TTY=unknown] [CWD=/home/maciej] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+lip 07 11:23:26 cosphere-oko gnome-session[4975]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+lip 07 11:24:12 cosphere-oko systemd-logind[846]: Removed session c1.
+-- Subject: Session c1 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID c1 has been terminated.
+lip 07 11:24:12 cosphere-oko systemd[1]: Stopping User Manager for UID 108...
+-- Subject: Unit user@108.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has begun shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Reached target Shutdown.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Starting Exit the Session...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Stopped target Default.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Stopped target Basic System.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Stopped target Timers.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Stopped target Paths.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Stopped target Sockets.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1271]: Received SIGRTMIN+24 from PID 6872 (kill).
+lip 07 11:24:12 cosphere-oko systemd[1280]: pam_unix(systemd-user:session): session closed for user lightdm
+lip 07 11:24:12 cosphere-oko systemd[1]: Stopped User Manager for UID 108.
+-- Subject: Unit user@108.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has finished shutting down.
+lip 07 11:24:12 cosphere-oko systemd[1]: Removed slice User Slice of lightdm.
+-- Subject: Unit user-108.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-108.slice has finished shutting down.
+lip 07 11:25:01 cosphere-oko CRON[6907]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 11:25:01 cosphere-oko CRON[6914]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 11:25:01 cosphere-oko CRON[6907]: pam_unix(cron:session): session closed for user root
+lip 07 11:25:54 cosphere-oko rtkit-daemon[1414]: Supervising 2 threads of 1 processes of 1 users.
+lip 07 11:25:54 cosphere-oko rtkit-daemon[1414]: Successfully made thread 6969 of process 5249 (n/a) owned by '1000' RT at priority 5.
+lip 07 11:25:54 cosphere-oko rtkit-daemon[1414]: Supervising 3 threads of 1 processes of 1 users.
+lip 07 11:27:09 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 11:35:01 cosphere-oko CRON[7779]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 11:35:01 cosphere-oko CRON[7780]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 11:35:01 cosphere-oko CRON[7779]: pam_unix(cron:session): session closed for user root
+lip 07 11:37:04 cosphere-oko systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+lip 07 11:37:04 cosphere-oko systemd-tmpfiles[7952]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+lip 07 11:37:04 cosphere-oko systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 11:37:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 11:45:01 cosphere-oko CRON[8263]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 11:45:01 cosphere-oko CRON[8264]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 11:45:01 cosphere-oko CRON[8263]: pam_unix(cron:session): session closed for user root
+lip 07 11:47:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 11:55:01 cosphere-oko CRON[8520]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 11:55:01 cosphere-oko CRON[8521]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 11:55:01 cosphere-oko CRON[8520]: pam_unix(cron:session): session closed for user root
+lip 07 11:57:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:05:01 cosphere-oko CRON[8810]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:05:01 cosphere-oko CRON[8811]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:05:01 cosphere-oko CRON[8810]: pam_unix(cron:session): session closed for user root
+lip 07 12:07:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:15:01 cosphere-oko CRON[9411]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:15:01 cosphere-oko CRON[9412]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:15:01 cosphere-oko CRON[9411]: pam_unix(cron:session): session closed for user root
+lip 07 12:17:01 cosphere-oko CRON[9468]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:17:01 cosphere-oko CRON[9469]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+lip 07 12:17:01 cosphere-oko CRON[9468]: pam_unix(cron:session): session closed for user root
+lip 07 12:17:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:22:19 cosphere-oko org.gnome.evolution.dataserver.Sources5[4625]: [0;1;39m** (evolution-source-registry:5192): WARNING **: secret_service_search_sync: must specify at least one attribute to match[0m
+lip 07 12:25:01 cosphere-oko CRON[9934]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:25:01 cosphere-oko CRON[9935]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:25:01 cosphere-oko CRON[9934]: pam_unix(cron:session): session closed for user root
+lip 07 12:25:54 cosphere-oko com.canonical.Unity.Scope.Applications[4625]: [0;1;39mError loading package indexes: Couldn't stat '/var/cache/software-center/xapian'[0m
+lip 07 12:25:54 cosphere-oko com.canonical.Unity.Scope.Applications[4625]: [0;1;39m(unity-scope-loader:10134): unity-applications-daemon-CRITICAL **: daemon.vala:144: Failed to load Software Center index. 'Apps Available for Download' will not be listed[0m
+lip 07 12:25:59 cosphere-oko org.gnome.Screenshot[4625]: [0;1;39m** Message: Unable to select area using GNOME Shell's builtin screenshot interface, resorting to fallback X11.[0m
+lip 07 12:26:05 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+lip 07 12:26:05 cosphere-oko systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+lip 07 12:26:05 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+lip 07 12:26:05 cosphere-oko systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 12:26:08 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (gvfsd:4691): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused[0m
+lip 07 12:26:08 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:10200): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+lip 07 12:26:10 cosphere-oko gnome-session[4975]: ** (zeitgeist-datahub:6326): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+lip 07 12:26:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (gvfsd:4691): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused[0m
+lip 07 12:26:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:10198): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:21 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:49 cosphere-oko org.gnome.Screenshot[4625]: [0;1;39m** Message: Unable to select area using GNOME Shell's builtin screenshot interface, resorting to fallback X11.[0m
+lip 07 12:26:56 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+lip 07 12:26:56 cosphere-oko systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:26:56 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+lip 07 12:26:56 cosphere-oko systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 12:26:58 cosphere-oko gnome-session[4975]: ** (zeitgeist-datahub:6326): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+lip 07 12:27:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:28:58 cosphere-oko org.gnome.Screenshot[4625]: [0;1;39m** Message: Unable to select area using GNOME Shell's builtin screenshot interface, resorting to fallback X11.[0m
+lip 07 12:29:04 cosphere-oko dbus[803]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+lip 07 12:29:04 cosphere-oko systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/2 (g-dbus-error-quark, 19)[0m
+lip 07 12:29:04 cosphere-oko dbus[803]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+lip 07 12:29:04 cosphere-oko systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 12:29:06 cosphere-oko gnome-session[4975]: ** (zeitgeist-datahub:6326): WARNING **: zeitgeist-datahub.vala:212: Error during inserting events: GDBus.Error:org.gnome.zeitgeist.EngineError.InvalidArgument: Incomplete event: interpretation, manifestation and actor are required
+lip 07 12:35:01 cosphere-oko CRON[11359]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:35:01 cosphere-oko CRON[11360]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:35:01 cosphere-oko CRON[11359]: pam_unix(cron:session): session closed for user root
+lip 07 12:37:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:43:04 cosphere-oko systemd[1]: Starting Automatically refresh installed snaps...
+-- Subject: Unit snapd.refresh.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.refresh.service has begun starting up.
+lip 07 12:43:04 cosphere-oko /usr/bin/snap[12579]: cmd.go:105: DEBUG: restarting into "/snap/core/current/usr/bin/snap"
+lip 07 12:43:04 cosphere-oko /usr/bin/snap[12579]: cmd.go:59: DEBUG: re-exec disabled by user
+lip 07 12:43:04 cosphere-oko snap[12579]: Ignoring `snap refresh` from the systemd timer
+lip 07 12:43:04 cosphere-oko systemd[1]: Started Automatically refresh installed snaps.
+-- Subject: Unit snapd.refresh.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.refresh.service has finished starting up.
+-- 
+-- The start-up result is done.
+lip 07 12:43:04 cosphere-oko systemd[1]: snapd.refresh.timer: Adding 1h 5.190676s random time.
+lip 07 12:43:04 cosphere-oko systemd[1]: snapd.refresh.timer: Adding 2h 17min 15.727635s random time.
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:43:11 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:5443): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+lip 07 12:45:01 cosphere-oko CRON[12956]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:45:01 cosphere-oko CRON[12957]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:45:01 cosphere-oko CRON[12956]: pam_unix(cron:session): session closed for user root
+lip 07 12:47:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:55:01 cosphere-oko CRON[13886]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 12:55:01 cosphere-oko CRON[13887]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 12:55:01 cosphere-oko CRON[13886]: pam_unix(cron:session): session closed for user root
+lip 07 12:57:08 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 12:59:36 cosphere-oko compiz[4999]: gkr-pam: unlocked login keyring
+lip 07 13:05:01 cosphere-oko CRON[14607]: pam_unix(cron:session): session opened for user root by (uid=0)
+lip 07 13:05:01 cosphere-oko CRON[14608]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+lip 07 13:05:01 cosphere-oko CRON[14607]: pam_unix(cron:session): session closed for user root
+lip 07 13:07:09 cosphere-oko wpa_supplicant[1036]: [0;1;39mwlp5s0: WPA: Group rekeying completed with 00:12:2a:da:ad:08 [GTK=TKIP][0m
+lip 07 13:09:28 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:10200): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+lip 07 13:09:28 cosphere-oko org.gtk.vfs.Daemon[4625]: [0;1;39m** (process:10200): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
