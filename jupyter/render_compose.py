@@ -26,7 +26,7 @@ def render():
                     "context": ".",
                     "dockerfile": "./notebook.dockerfile",
                 },
-                "command": "/srv/run.sh",
+                "command": "/home/carrot/run.sh",
                 "ports": ["{port}:8888".format(port=8000 + num)],
                 "environment": {
                     "PASSWORD": password

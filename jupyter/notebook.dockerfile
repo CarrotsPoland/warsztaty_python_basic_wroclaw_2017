@@ -7,7 +7,8 @@ RUN chown carrot:carrot $HOME
 RUN pip3 install virtualenv
 
 RUN python3 -m venv .venv
-RUN ./.venv/bin/pip install jupyter
-ENV LAST_MODIFIED 2017.06.16.001
-COPY ./run.sh /srv/run.sh
-RUN cd $HOME
+COPY ./notebook_requirements.txt $HOME/notebook_requirements.txt
+RUN $HOME/.venv/bin/pip install jupyter
+RUN $HOME/.venv/bin/pip install -r notebook_requirements.txt
+
+COPY ./run.sh $HOME/run.sh
