@@ -1,0 +1,51 @@
+services:
+  notebook-1:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /srv/run.sh
+    container_name: carrot1
+    environment:
+      PASSWORD: sha1:5787b99282f3:dd43b9a19dd95526d8685135da37a346c954d105
+    image: carrot
+    ports:
+    - 8001:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_1:/home/carrot/notebooks
+  notebook-2:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /srv/run.sh
+    container_name: carrot2
+    environment:
+      PASSWORD: sha1:ec875c41cff8:ece7d94aee0d4baa7d5c0759b5292d0325757c15
+    image: carrot
+    ports:
+    - 8002:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_2:/home/carrot/notebooks
+  notebook-3:
+    build:
+      context: .
+      dockerfile: ./notebook.dockerfile
+    command: /srv/run.sh
+    container_name: carrot3
+    environment:
+      PASSWORD: sha1:9b779e22ce48:57eadfe7c462098f1e82633a5d9f0067294a1df2
+    image: carrot
+    ports:
+    - 8003:8888
+    restart: always
+    user: carrot
+    volumes:
+    - carrot_notebook_vol_3:/home/carrot/notebooks
+version: '2'
+volumes:
+  carrot_notebook_vol_1: {}
+  carrot_notebook_vol_2: {}
+  carrot_notebook_vol_3: {}
